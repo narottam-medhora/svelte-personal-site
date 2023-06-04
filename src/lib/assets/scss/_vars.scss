@@ -1,0 +1,63 @@
+// Breakpoints
+$xsMin: 37.5rem;
+$xsMax: 47.9375rem;
+$smMin: 48rem;
+$smMax: 63.9375rem;
+$mdMin: 64rem;
+$mdMax: 79.9375rem;
+$lgMin: 80rem;
+$lgMax: 89.9375rem;
+$xlMin: 90rem;
+$xlMax: 104.9375rem;
+$xxlMin: 105rem;
+$xxlMax: 122.4375rem;
+$xxxlMin: 122.5rem;
+
+:root {
+	color-scheme: dark;
+
+	// Base styles
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+html {
+	// * Fonts
+	--font-serif: 'Merriweather', serif;
+	--font-sans: 'Raleway', sans-serif;
+	--font-mono: 'Fira Code', monospace;
+
+	// * Dark theme
+	/* Palette URL: http://paletton.com/#uid=33K0u0kwi++bu++hX++++rd++kX */
+	--brand-dark: #040e21;
+
+	// Primary colors
+	--primary-1-dark: #adc7ff;
+	--primary-2-dark: #7fa8ff;
+	--primary-3-dark: #002e91;
+	--primary-4-dark: #00246f;
+
+	// Main secondary colors
+	--secondary-1-0-dark: #ffd200;
+	--secondary-1-1-dark: #ffefa4;
+	--secondary-1-2-dark: #ffe670;
+	--secondary-1-3-dark: #d9b200;
+	--secondary-1-4-dark: #a78900;
+
+	// Alternate secondary colors
+	--secondary-2-0-dark: #ff7100;
+	--secondary-2-1-dark: #ffcca4;
+	--secondary-2-2-dark: #ffaf70;
+	--secondary-2-3-dark: #d96000;
+	--secondary-2-4-dark: #a74a00;
+}
+
+body {
+	@media (min-width: $smMax) {
+		font-size: 1.125rem;
+	}
+
+	@media (min-width: $lgMin) {
+		font-size: 1.25rem;
+	}
+}

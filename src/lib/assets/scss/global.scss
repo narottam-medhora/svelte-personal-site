@@ -1,0 +1,66 @@
+@use './typography';
+@use './layout';
+@use './components';
+@use './header-and-footer';
+@use './animation';
+@use './utilities';
+@use './code';
+@use './prism';
+
+*:focus {
+	outline: 2px solid var(--secondary-2-0-dark);
+	outline-offset: 2px;
+}
+
+main:focus {
+	outline: none;
+}
+
+body {
+	margin: 0;
+	min-height: 100svh;
+	color: var(--primary-1-dark);
+	font-family: var(--font-sans);
+	background: var(--brand-dark);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+	// Prevent any issues with the mobile navigation
+	overflow-x: hidden;
+}
+
+html,
+body {
+	scrollbar-color: var(--secondary-2-0-dark) var(--brand-dark);
+	scrollbar-width: thin;
+
+	&.smooth-scroll {
+		scroll-behavior: smooth;
+	}
+}
+
+::selection {
+	background: var(--secondary-2-0-dark);
+	color: var(--primary-3-dark);
+}
+
+::-moz-selection {
+	background: var(--secondary-2-0-dark);
+	color: var(--primary-3-dark);
+}
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+	height: calc(var(1rem) * 0.25);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	/* the "track" of the bar - great for customizing "background" colors */
+	background: var(--brand-dark);
+}
+
+::-webkit-scrollbar-thumb {
+	/* the actual draggable element, the star of the show! */
+	background: var(--secondary-2-4-dark);
+}
