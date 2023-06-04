@@ -1,9 +1,9 @@
-Repository Name: personal-website-svelte
+# Repository Name: personal-website-svelte
 
-Description:
+## Description:
 This GitHub repository contains the source code and assets for my personal website built using SvelteKit and SCSS.
 
-Folder Structure:
+## Folder Structure:
 The repository has the following folder structure:
 
 1. `src`: This folder contains the main source code of the website.
@@ -20,7 +20,7 @@ The repository has the following folder structure:
 
 5. `package.json`: Contains the project's metadata and dependencies. It includes the necessary scripts for development, building, and testing the project.
 
-Features:
+## Features:
 The personal website built with SvelteKit and SCSS offers the following features:
 
 1. **Responsive Design:** The website is designed to provide a seamless experience across various devices and screen sizes.
@@ -29,8 +29,8 @@ The personal website built with SvelteKit and SCSS offers the following features
 
 3. **SCSS Styling:** SCSS is used to write modular and maintainable CSS styles for the website. It allows for easier customization and theming.
 
-Version Control:
+## Version Control:
 The repository utilizes Git for version control, allowing for collaboration and easy tracking of changes made to the source code. It can be cloned or forked to be further customized or used as a template for other personal websites.
 
-License:
+### License:
 The repository is released under an open-source license (e.g., MIT, Apache 2.0) to encourage contributions and allow others to use the code as per the license terms.
