@@ -17,4 +17,8 @@ excerpt: This post shows you how syntax highlighting works here.
     import Streamgraph  from '$lib/components/charts/Streamgraph.svelte'
 </script>
 
+Some text above the chart
+
 <Streamgraph />
+
+Some text below the chart

@@ -9,8 +9,6 @@
 }
 
 main {
-	width: 100%;
-	max-width: 42rem;
 	margin: 6rem auto;
 	padding: 0 1rem;
 }
@@ -23,6 +21,7 @@ main {
 }
 
 img {
+	display: block;
 	width: 100%;
 	max-width: 100%;
 	height: auto;
@@ -40,6 +39,15 @@ img {
 
 	img + h1 {
 		margin-top: 1rem;
+	}
+
+	// Move width logic handling to the post container
+	// Define max-width for all elements in the post EXCEPT for the
+	// chart classes
+	:not(.chart-lrg, .chart-med, .chart-sml) {
+		width: 100%;
+		max-width: 42rem;
+		margin-inline: auto;
 	}
 }
 
@@ -64,13 +72,39 @@ li {
 	}
 }
 
+.chart-lrg {
+	width: 100vw;
+	height: 500px;
+
+	outline: 2px dashed yellow;
+	margin-block: 1rem;
+}
+
+.chart-med {
+	width: 75vw;
+	height: 500px;
+
+	outline: 2px dashed coral;
+	margin-block: 1rem;
+	margin-inline: auto;
+}
+
+.chart-sml {
+	width: 42rem;
+	height: 500px;
+
+	outline: 2px dashed papayawhip;
+	margin-block: 1rem;
+	margin-inline: auto;
+}
+
 .post-footer {
 	ul {
 		padding: 0;
 	}
 
 	li {
-		display: inline-block;
+		display: inline;
 		font-size: 0.8rem;
 
 		a {
@@ -81,10 +115,6 @@ li {
 			font-family: var(--font-sans);
 			font-weight: bold;
 			text-decoration: none;
-		}
-
-		+ li {
-			margin-left: 0.5rem;
 		}
 	}
 }
