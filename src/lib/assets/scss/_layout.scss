@@ -56,6 +56,10 @@ li {
 }
 
 .posts-list {
+	width: 100%;
+	max-width: 42rem;
+	margin-inline: auto;
+
 	list-style-type: none;
 	padding: 0;
 
@@ -143,4 +147,10 @@ li {
 			opacity: 1;
 		}
 	}
+}
+
+.article-container {
+	width: 100%;
+	max-width: 42rem;
+	margin-inline: auto;
 }

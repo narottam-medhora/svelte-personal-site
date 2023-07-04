@@ -1,14 +1,14 @@
 <script>
-	import { siteTitle, siteDescription } from '$lib/config';
 	import Placeholder from '$lib/components/Placeholder.svelte';
+	import { siteTitle, siteDescription } from '$lib/config';
 </script>
 
 <svelte:head>
-	<title>{siteTitle} | Uses</title>
+	<title>{siteTitle} | About</title>
 	<meta data-key="description" name="description" content={siteDescription} />
 </svelte:head>
 
 <article class="article-container">
-	<h1>Uses</h1>
+	<h1>About</h1>
 	<Placeholder />
 </article>
