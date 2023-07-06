@@ -19,6 +19,10 @@ excerpt: This post shows you how syntax highlighting works here.
 
 Some text above the chart
 
+### Medal winners
+
+_Norway and the United States dominate the modern iterations of the Winter Games _
+
 <Streamgraph />
 
 Some text below the chart

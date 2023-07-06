@@ -44,7 +44,7 @@ img {
 	// Move width logic handling to the post container
 	// Define max-width for all elements in the post EXCEPT for the
 	// chart classes
-	:not(.chart-lrg, .chart-med, .chart-sml) {
+	:not(.chart-container--lrg, .chart-container--lrg > *) {
 		width: 100%;
 		max-width: 42rem;
 		margin-inline: auto;
@@ -76,30 +76,14 @@ li {
 	}
 }
 
-.chart-lrg {
+// Set the large chart container to be 100 viewport units
+.chart-container--lrg {
+	position: relative;
+
 	width: 100vw;
 	height: 500px;
 
-	outline: 2px dashed yellow;
 	margin-block: 1rem;
-}
-
-.chart-med {
-	width: 75vw;
-	height: 500px;
-
-	outline: 2px dashed coral;
-	margin-block: 1rem;
-	margin-inline: auto;
-}
-
-.chart-sml {
-	width: 42rem;
-	height: 500px;
-
-	outline: 2px dashed papayawhip;
-	margin-block: 1rem;
-	margin-inline: auto;
 }
 
 .post-footer {
