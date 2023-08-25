@@ -5,7 +5,7 @@
 	import Placeholder from '$lib/components/Placeholder.svelte';
 
 	// TODO: Uncomment this when we go live
-	// export let data;
+	export let data;
 </script>
 
 <svelte:head>
@@ -15,10 +15,10 @@
 
 <article class="article-container">
 	<h1>Blog</h1>
-	<Placeholder />
+	<!-- <Placeholder /> -->
 </article>
 
 <!-- TODO: Uncomment when we go live -->
-<!-- <PostsList posts={data.posts} />
+<PostsList posts={data.posts} />
 
-<Pagination currentPage={1} totalPosts={data.total} /> -->
+<Pagination currentPage={1} totalPosts={data.total} />
