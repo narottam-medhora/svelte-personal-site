@@ -7,7 +7,7 @@ categories:
 coverImage: '/images/winter-olympics.svg'
 coverWidth: 16
 coverHeight: 9
-excerpt: This post shows you how syntax highlighting works here.
+excerpt: I really just wanted an excuse to build a streamgraph. Honest.
 ---
 
 <script>
