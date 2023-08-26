@@ -44,7 +44,7 @@
 	// Chart settings
 	let width = 968;
 	let height = 500;
-	let margin = { top: 20, right: 20, bottom: 40, left: 20 };
+	let margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
 	$: boundedWidth = width - margin.right - margin.left;
 	let boundedHeight = height - margin.top - margin.bottom;
@@ -134,11 +134,17 @@
 	{/if}
 </div>
 
-<style>
+<style style="scss">
 	.chart-legend--container {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		gap: 1rem;
+	}
+
+	@media (min-width: 64rem) {
+		.chart-legend--container {
+			grid-template-columns: repeat(5, 1fr);
+		}
 	}
 
 	.chart-legend {
