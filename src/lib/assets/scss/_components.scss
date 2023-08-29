@@ -1,19 +1,28 @@
 @use 'vars';
 
 .callout {
-	background: var(--lightAccent);
+	background: var(--primary-2-dark);
 	padding: 2rem 1rem;
-  width: calc(100% + 2rem);
+	width: calc(100% + 2rem);
 	max-width: unset;
-  margin: 2rem 0 2rem -1rem;
+	margin: 2rem 0 2rem -1rem;
 	font-style: italic;
 	border-radius: 0.125rem;
-  
-  @media (min-width: vars.$smMin) {
-    width: calc(100% + 4rem);
-    margin: 2rem 0 2rem -2rem;
-    padding: 2rem;
-  }
+	color: var(--brand-dark);
+
+	@media (min-width: vars.$smMin) {
+		width: calc(100% + 4rem);
+		margin: 2rem 0 2rem -2rem;
+		padding: 2rem;
+	}
+
+	ul {
+		list-style-image: url(../../../../static/images/icons/chevron.svg);
+	}
+
+	a {
+		color: var(--secondary-2-4-dark);
+	}
 }
 
 .pagination {
@@ -41,21 +50,20 @@
 			justify-content: center;
 			width: 2em;
 			height: 2em;
-			font-family: var(--primaryFont);
+			font-family: var(--font-sans);
 			font-weight: bold;
-			transition: background .1s;
+			transition: background 0.1s;
 
 			&:hover {
 				background: var(--accent);
 				color: var(--background);
 			}
 
-			&[aria-current="true"] {
+			&[aria-current='true'] {
 				background: var(--accent);
 				color: var(--background);
 				border: 1px solid currentColor;
 			}
 		}
-
 	}
 }

@@ -95,9 +95,8 @@
 	{/each}
 </div>
 <div
-	class="post-chart"
+	class="post-chart--full-width"
 	bind:clientWidth={width}
-	bind:clientHeight={height}
 	on:mouseleave={() => {
 		hovered = null;
 	}}

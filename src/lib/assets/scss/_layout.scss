@@ -43,9 +43,17 @@ img {
 	}
 }
 
-.post-chart {
+.post-chart--normal-width {
 	position: relative;
-	height: 500px;
+	height: 600px;
+
+	width: 100%;
+	max-width: 100%;
+}
+
+.post-chart--full-width {
+	position: relative;
+	height: 600px;
 
 	width: 100vw;
 	max-width: 100vw;
