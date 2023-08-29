@@ -48,7 +48,7 @@ svg
 	.attr('fill', (d) => d.color);
 ```
 
-For a few months, the experience was extremely frustrating. Understanding D3’s unique syntax, while navigating outdated examples on [bl.ocks.org](bl.ocks.org) (🪦) and Stack Overflow, was one of the steepest learning curves I’ve ever encountered.
+For a few months, the experience was extremely frustrating. Understanding D3’s unique syntax, while navigating outdated examples on bl.ocks.org (🪦) and Stack Overflow, was one of the steepest learning curves I’ve ever encountered.
 
 ## Building the chart declaratively
 
