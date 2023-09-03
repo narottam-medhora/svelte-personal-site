@@ -11,7 +11,7 @@ excerpt: I really just wanted an excuse to build a streamgraph. Honest.
 ---
 
 <script>
-    import Streamgraph  from '$lib/components/charts/Streamgraph/Streamgraph.svelte'
+    import Streamgraph  from '$lib/components/charts/winter-olympics/Streamgraph.svelte'
 </script>
 
 The inaugural Winter Olympics at Chamonix, France in 1924 saw 16 countries participate, of which 10 won medals while competing across 16 events. Nearly a century later, the 2022 Winter Olympics in Beijing will see 92 countries challenge for medals across 109 events.

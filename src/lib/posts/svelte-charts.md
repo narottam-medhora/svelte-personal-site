@@ -12,7 +12,7 @@ excerpt: Recreating DataWrapper's climate vulnerability index.
 ---
 
 <script>
-  import Scatterplot from '$lib/components/charts/Scatterplot/Scatterplot.svelte'
+  import Scatterplot from '$lib/components/charts/svelte-charts/Scatterplot.svelte'
   import Callout from '$lib/components/Callout.svelte'
 </script>
 
