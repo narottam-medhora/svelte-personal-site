@@ -8,7 +8,7 @@ categories:
 coverImage: '/images/data-visualisations-svelte.svg'
 coverWidth: 16
 coverHeight: 9
-excerpt: Recreating a DataWrapper's climate vulnerability index.
+excerpt: Recreating DataWrapper's climate vulnerability index.
 ---
 
 <script>
