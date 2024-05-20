@@ -1,45 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<!-- FAVICONS -->
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="%sveltekit.assets%/favicon/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="%sveltekit.assets%/favicon/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="%sveltekit.assets%/favicon/favicon-16x16.png"
-		/>
-		<!-- END FAVICONS BLOCK -->
-
-		<!-- GOOGLE FONTS -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Raleway:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- END GOOGLE FONTS BLOCK -->
-
 		%sveltekit.head%
-		<!-- You can replace this block to update the Google fonts used in the project -->
-
-		<!-- You can add global <meta> tags here, but anything not global or dynamic should be a `<svelte:head>` tag on the proper page(s) instead. -->
 	</head>
-	<body>
-		<div id="svelte">%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
