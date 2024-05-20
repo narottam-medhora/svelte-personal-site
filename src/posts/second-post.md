@@ -13,7 +13,3 @@
 Media inside the **static** folder is served from root `/`.
 
 ![Svelte](/favicon.png)
-
-```ts
-
-```

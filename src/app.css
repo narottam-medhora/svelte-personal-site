@@ -134,3 +134,25 @@ li {
 	background-color: var(--surface-4);
 	color: var(--text-1);
 }
+
+.markdown :is(h1, h2, h3, h4, h5, h6) {
+	margin-block-start: var(--size-8);
+	margin-block-end: var(--size-3);
+}
+
+.markdown :not(:is(h1, h2, h3, h4, h5, h6) + p) {
+	margin-block-start: var(--size-7);
+}
+
+.markdown :is(ul, ol) li {
+	margin-block: var(--size-2);
+	padding-inline-start: var(--size-2);
+}
+
+.markdown pre {
+	max-inline-size: 100%;
+	padding: var(--size-3);
+	background-color: var(--surface-4);
+	border-radius: var(--radius-3);
+	tab-size: 2;
+}
