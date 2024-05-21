@@ -8,9 +8,15 @@
     published: true
 ---
 
+<script>
+    import Counter from '$lib/components/Counter.svelte';
+</script>
+
 ### Markdown
 
 Hello World 🌏
+
+<Counter />
 
 This is just some text for testing out the margin.
 
