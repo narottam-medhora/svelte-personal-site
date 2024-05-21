@@ -6,7 +6,7 @@
 
 <nav>
 	<!-- Site title -->
-	<a href="/">{config.title}</a>
+	<a href="/" class="title">{config.title}</a>
 
 	<!-- Site navigation -->
 	<ul class="nav-items">
@@ -25,6 +25,11 @@
 <style>
 	nav {
 		padding-block: var(--size-7);
+	}
+
+	nav > .title {
+		font-size: var(--font-size-3);
+		font-weight: var(--font-weight-7);
 	}
 
 	.nav-items {

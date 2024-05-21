@@ -31,6 +31,7 @@
 
 	.posts {
 		max-inline-size: var(--size-content-3);
+		margin-inline: auto;
 	}
 
 	.post:not(:last-child) {

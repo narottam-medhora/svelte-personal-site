@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 600" style="enable-background:new 0 0 640 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-dasharray:5,5;}
+	.st1{display:none;fill:#FFFFFF;enable-background:new    ;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:16px;}
+	.st4{fill:#C71E1D;}
+	.st5{fill:#00DCA6;}
+	.st6{fill:#FA8C00;}
+	.st7{fill:#18A1CD;}
+	.st8{opacity:0.9;fill:#18A1CD;stroke:#FFFFFF;enable-background:new    ;}
+	.st9{opacity:0.9;fill:#C71E1D;stroke:#FFFFFF;enable-background:new    ;}
+	.st10{opacity:0.9;fill:#00DCA6;stroke:#FFFFFF;enable-background:new    ;}
+	.st11{display:none;}
+	.st12{display:inline;fill:#FFFFFF;}
+	.st13{display:inline;fill:none;stroke:#000000;stroke-width:0.2;}
+</style>
+<g transform="translate(30, 30)">
+	<g>
+		<line class="st0" x1="0" y1="270" x2="580" y2="270"/>
+		<text transform="matrix(1 0 0 1 454.6016 264)" class="st1 st2 st3">High Readiness ↑</text>
+		<text transform="matrix(1 0 0 1 458.1562 289.7305)" class="st1 st2 st3">Low Readiness ↓</text>
+	</g>
+	<g>
+		<line class="st0" x1="290" y1="0" x2="290" y2="540"/>
+		<text transform="matrix(1 0 0 1 296 534)" class="st1 st2 st3">High Vulnerability →</text>
+		<text transform="matrix(1 0 0 1 149.1953 534)" class="st1 st2 st3">← Low Vulnerability</text>
+	</g>
+	<g transform="translate(452.6829268292682, 458.1818181818182)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(212.19512195121945, 319.0909090909092)">
+		<rect x="0" y="0" class="st5" width="5.8" height="5.8"/>
+	</g>
+	<g transform="translate(183.90243902439025, 384.54545454545456)">
+		<rect x="0" y="0" class="st6" width="8.4" height="8.4"/>
+	</g>
+	<g transform="translate(353.6585365853658, 441.81818181818187)">
+		<rect x="0" y="0" class="st4" width="4.8" height="4.8"/>
+	</g>
+	<g transform="translate(311.2195121951219, 286.3636363636364)">
+		<rect x="0" y="0" class="st7" width="9.9" height="9.9"/>
+	</g>
+	<g transform="translate(212.19512195121945, 343.6363636363637)">
+		<rect x="0" y="0" class="st6" width="8.1" height="8.1"/>
+	</g>
+	<g transform="translate(198.0487804878049, 237.2727272727273)">
+		<rect x="0" y="0" class="st5" width="6.3" height="6.3"/>
+	</g>
+	<g transform="translate(84.8780487804878, 90.0000000000001)">
+		<rect x="0" class="st5" width="20.9" height="20.9"/>
+	</g>
+	<g transform="translate(28.29268292682929, 90.0000000000001)">
+		<rect x="0" class="st5" width="12" height="12"/>
+	</g>
+	<g transform="translate(254.63414634146338, 294.5454545454545)">
+		<rect x="0" y="0" class="st7" width="7.9" height="7.9"/>
+	</g>
+	<g transform="translate(282.9268292682927, 310.90909090909093)">
+		<rect x="0" y="0" class="st7" width="12" height="12"/>
+	</g>
+	<g transform="translate(268.780487804878, 237.2727272727273)">
+		<rect x="0" y="0" class="st8" width="26.5" height="26.5"/>
+	</g>
+	<g transform="translate(396.0975609756098, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="4.6" height="4.6"/>
+	</g>
+	<g transform="translate(183.90243902439025, 212.72727272727272)">
+		<rect x="0" y="0" class="st5" width="8.8" height="8.8"/>
+	</g>
+	<g transform="translate(113.17073170731709, 245.45454545454547)">
+		<rect x="0" y="0" class="st5" width="10.7" height="10.7"/>
+	</g>
+	<g transform="translate(127.31707317073166, 163.63636363636368)">
+		<rect x="0" y="0" class="st5" width="12.9" height="12.9"/>
+	</g>
+	<g transform="translate(282.9268292682927, 384.54545454545456)">
+		<rect x="0" y="0" class="st4" width="5.8" height="5.8"/>
+	</g>
+	<g transform="translate(438.5365853658535, 376.3636363636364)">
+		<rect x="0" y="0" class="st4" width="4.6" height="4.6"/>
+	</g>
+	<g transform="translate(367.8048780487805, 261.81818181818187)">
+		<rect x="0" y="0" class="st7" width="5.5" height="5.5"/>
+	</g>
+	<g transform="translate(282.9268292682927, 417.2727272727273)">
+		<rect x="0" y="0" class="st4" width="6.1" height="6.1"/>
+	</g>
+	<g transform="translate(155.60975609756096, 360.00000000000006)">
+		<rect x="0" class="st6" width="11" height="11"/>
+	</g>
+	<g transform="translate(297.07317073170725, 302.72727272727275)">
+		<rect x="0" y="0" class="st7" width="7.5" height="7.5"/>
+	</g>
+	<g transform="translate(198.0487804878049, 360.00000000000006)">
+		<rect x="0" class="st6" width="6.2" height="6.2"/>
+	</g>
+	<g transform="translate(155.60975609756096, 220.9090909090909)">
+		<rect x="0" y="0" class="st5" width="21.9" height="21.9"/>
+	</g>
+	<g transform="translate(155.60975609756096, 278.1818181818182)">
+		<rect x="0" y="0" class="st5" width="10.2" height="10.2"/>
+	</g>
+	<g transform="translate(410.24390243902445, 417.2727272727273)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(424.39024390243907, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="4" height="4"/>
+	</g>
+	<g transform="translate(353.6585365853658, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="5" height="5"/>
+	</g>
+	<g transform="translate(311.2195121951219, 441.81818181818187)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(56.58536585365851, 122.72727272727273)">
+		<rect x="0" y="0" class="st5" width="21.1" height="21.1"/>
+	</g>
+	<g transform="translate(212.19512195121945, 294.5454545454545)">
+		<rect x="0" y="0" class="st5" width="5.3" height="5.3"/>
+	</g>
+	<g transform="translate(466.82926829268285, 540)">
+		<rect x="0" class="st4" width="4" height="4"/>
+	</g>
+	<g transform="translate(565.8536585365854, 499.0909090909091)">
+		<rect x="0" y="0" class="st9" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(84.8780487804878, 212.72727272727272)">
+		<rect x="0" y="0" class="st5" width="9.3" height="9.3"/>
+	</g>
+	<g transform="translate(198.0487804878049, 204.54545454545453)">
+		<rect x="0" y="0" class="st5" width="12.4" height="12.4"/>
+	</g>
+	<g transform="translate(226.3414634146341, 343.6363636363637)">
+		<rect x="0" y="0" class="st6" width="5.7" height="5.7"/>
+	</g>
+	<g transform="translate(381.95121951219517, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(367.8048780487805, 474.54545454545456)">
+		<rect x="0" y="0" class="st4" width="5.5" height="5.5"/>
+	</g>
+	<g transform="translate(466.82926829268285, 482.7272727272728)">
+		<rect x="0" y="0" class="st4" width="4" height="4"/>
+	</g>
+	<g transform="translate(169.7560975609756, 278.1818181818182)">
+		<rect x="0" y="0" class="st5" width="5.8" height="5.8"/>
+	</g>
+	<g transform="translate(353.6585365853658, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(183.90243902439025, 253.63636363636365)">
+		<rect x="0" y="0" class="st5" width="8.5" height="8.5"/>
+	</g>
+	<g transform="translate(254.63414634146338, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="6.5" height="6.5"/>
+	</g>
+	<g transform="translate(155.60975609756096, 229.09090909090912)">
+		<rect x="0" y="0" class="st5" width="10.6" height="10.6"/>
+	</g>
+	<g transform="translate(56.58536585365851, 196.36363636363637)">
+		<rect x="0" y="0" class="st10" width="14" height="14"/>
+	</g>
+	<g transform="translate(127.31707317073166, 16.36363636363635)">
+		<rect x="0" y="0" class="st5" width="9.6" height="9.6"/>
+	</g>
+	<g transform="translate(311.2195121951219, 384.54545454545456)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(268.780487804878, 229.09090909090912)">
+		<rect x="0" y="0" class="st7" width="6.6" height="6.6"/>
+	</g>
+	<g transform="translate(240.48780487804873, 360.00000000000006)">
+		<rect x="0" class="st6" width="6.8" height="6.8"/>
+	</g>
+	<g transform="translate(268.780487804878, 376.3636363636364)">
+		<rect x="0" y="0" class="st4" width="6.5" height="6.5"/>
+	</g>
+	<g transform="translate(254.63414634146338, 376.3636363636364)">
+		<rect x="0" y="0" class="st4" width="6.7" height="6.7"/>
+	</g>
+	<g transform="translate(254.63414634146338, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="5.3" height="5.3"/>
+	</g>
+	<g transform="translate(254.63414634146338, 458.1818181818182)">
+		<rect x="0" y="0" class="st4" width="8.3" height="8.3"/>
+	</g>
+	<g transform="translate(466.82926829268285, 482.7272727272728)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(141.46341463414632, 147.2727272727273)">
+		<rect x="0" y="0" class="st5" width="12.5" height="12.5"/>
+	</g>
+	<g transform="translate(424.39024390243907, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(254.63414634146338, 270.00000000000006)">
+		<rect x="0" class="st7" width="6" height="6"/>
+	</g>
+	<g transform="translate(70.73170731707316, 40.909090909090935)">
+		<rect x="0" y="0" class="st5" width="12.1" height="12.1"/>
+	</g>
+	<g transform="translate(70.73170731707316, 122.72727272727273)">
+		<rect x="0" y="0" class="st5" width="8.9" height="8.9"/>
+	</g>
+	<g transform="translate(226.3414634146341, 409.09090909090907)">
+		<rect x="0" y="0" class="st6" width="6.6" height="6.6"/>
+	</g>
+	<g transform="translate(410.24390243902445, 384.54545454545456)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(212.19512195121945, 188.18181818181824)">
+		<rect x="0" y="0" class="st5" width="7" height="7"/>
+	</g>
+	<g transform="translate(42.43902439024386, 90.0000000000001)">
+		<rect x="0" class="st5" width="12.7" height="12.7"/>
+	</g>
+	<g transform="translate(297.07317073170725, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="4.7" height="4.7"/>
+	</g>
+	<g transform="translate(99.02439024390245, 220.9090909090909)">
+		<rect x="0" y="0" class="st5" width="10.2" height="10.2"/>
+	</g>
+	<g transform="translate(183.90243902439025, 278.1818181818182)">
+		<rect x="0" y="0" class="st5" width="7.2" height="7.2"/>
+	</g>
+	<g transform="translate(268.780487804878, 392.72727272727275)">
+		<rect x="0" y="0" class="st4" width="5.2" height="5.2"/>
+	</g>
+	<g transform="translate(381.95121951219517, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.3" height="4.3"/>
+	</g>
+	<g transform="translate(565.8536585365854, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(282.9268292682927, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="8" height="8"/>
+	</g>
+	<g transform="translate(381.95121951219517, 466.3636363636364)">
+		<rect x="0" y="0" class="st4" width="4.3" height="4.3"/>
+	</g>
+	<g transform="translate(282.9268292682927, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="5.1" height="5.1"/>
+	</g>
+	<g transform="translate(155.60975609756096, 245.45454545454547)">
+		<rect x="0" y="0" class="st5" width="9.2" height="9.2"/>
+	</g>
+	<g transform="translate(84.8780487804878, 65.45454545454551)">
+		<rect x="0" y="0" class="st5" width="9" height="9"/>
+	</g>
+	<g transform="translate(353.6585365853658, 335.45454545454544)">
+		<rect x="0" y="0" class="st9" width="6" height="6"/>
+	</g>
+	<g transform="translate(268.780487804878, 335.45454545454544)">
+		<rect x="0" y="0" class="st4" width="6.5" height="6.5"/>
+	</g>
+	<g transform="translate(183.90243902439025, 335.45454545454544)">
+		<rect x="0" y="0" class="st6" width="12.4" height="12.4"/>
+	</g>
+	<g transform="translate(254.63414634146338, 409.09090909090907)">
+		<rect x="0" y="0" class="st4" width="8.9" height="8.9"/>
+	</g>
+	<g transform="translate(84.8780487804878, 163.63636363636368)">
+		<rect x="0" y="0" class="st5" width="12" height="12"/>
+	</g>
+	<g transform="translate(84.8780487804878, 212.72727272727272)">
+		<rect x="0" y="0" class="st5" width="11.6" height="11.6"/>
+	</g>
+	<g transform="translate(84.8780487804878, 229.09090909090912)">
+		<rect x="0" y="0" class="st5" width="9.9" height="9.9"/>
+	</g>
+	<g transform="translate(240.48780487804873, 327.2727272727273)">
+		<rect x="0" y="0" class="st6" width="7.1" height="7.1"/>
+	</g>
+	<g transform="translate(169.7560975609756, 90.0000000000001)">
+		<rect x="0" class="st5" width="13.4" height="13.4"/>
+	</g>
+	<g transform="translate(169.7560975609756, 319.0909090909092)">
+		<rect x="0" y="0" class="st6" width="6.7" height="6.7"/>
+	</g>
+	<g transform="translate(141.46341463414632, 229.09090909090912)">
+		<rect x="0" y="0" class="st5" width="16.7" height="16.7"/>
+	</g>
+	<g transform="translate(381.95121951219517, 409.09090909090907)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(297.07317073170725, 376.3636363636364)">
+		<rect x="0" y="0" class="st4" width="6.4" height="6.4"/>
+	</g>
+	<g transform="translate(169.7560975609756, 65.45454545454551)">
+		<rect x="0" y="0" class="st5" width="17.1" height="17.1"/>
+	</g>
+	<g transform="translate(169.7560975609756, 270.00000000000006)">
+		<rect x="0" class="st5" width="28.4" height="28.4"/>
+	</g>
+	<g transform="translate(127.31707317073166, 335.45454545454544)">
+		<rect x="0" y="0" class="st6" width="5.7" height="5.7"/>
+	</g>
+	<g transform="translate(381.95121951219517, 384.54545454545456)">
+		<rect x="0" y="0" class="st4" width="6.9" height="6.9"/>
+	</g>
+	<g transform="translate(183.90243902439025, 180.00000000000009)">
+		<rect x="0" class="st5" width="8.4" height="8.4"/>
+	</g>
+	<g transform="translate(226.3414634146341, 417.2727272727273)">
+		<rect x="0" y="0" class="st6" width="8.5" height="8.5"/>
+	</g>
+	<g transform="translate(311.2195121951219, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(480.97560975609747, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(240.48780487804873, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="13.3" height="13.3"/>
+	</g>
+	<g transform="translate(169.7560975609756, 163.63636363636368)">
+		<rect x="0" y="0" class="st5" width="8.6" height="8.6"/>
+	</g>
+	<g transform="translate(56.58536585365851, 106.36363636363639)">
+		<rect x="0" y="0" class="st5" width="21" height="21"/>
+	</g>
+	<g transform="translate(155.60975609756096, 270.00000000000006)">
+		<rect x="0" class="st5" width="8.4" height="8.4"/>
+	</g>
+	<g transform="translate(424.39024390243907, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(410.24390243902445, 417.2727272727273)">
+		<rect x="0" y="0" class="st4" width="4" height="4"/>
+	</g>
+	<g transform="translate(169.7560975609756, 237.2727272727273)">
+		<rect x="0" y="0" class="st5" width="12.8" height="12.8"/>
+	</g>
+	<g transform="translate(367.8048780487805, 294.5454545454545)">
+		<rect x="0" y="0" class="st7" width="8.4" height="8.4"/>
+	</g>
+	<g transform="translate(480.97560975609747, 417.2727272727273)">
+		<rect x="0" y="0" class="st4" width="4.3" height="4.3"/>
+	</g>
+	<g transform="translate(113.17073170731709, 237.2727272727273)">
+		<rect x="0" y="0" class="st5" width="7.6" height="7.6"/>
+	</g>
+	<g transform="translate(438.5365853658535, 360.00000000000006)">
+		<rect x="0" class="st4" width="4.9" height="4.9"/>
+	</g>
+	<g transform="translate(240.48780487804873, 188.18181818181824)">
+		<rect x="0" y="0" class="st5" width="7.6" height="7.6"/>
+	</g>
+	<g transform="translate(226.3414634146341, 351.81818181818187)">
+		<rect x="0" y="0" class="st6" width="7.9" height="7.9"/>
+	</g>
+	<g transform="translate(452.6829268292682, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="5.7" height="5.7"/>
+	</g>
+	<g transform="translate(240.48780487804873, 302.72727272727275)">
+		<rect x="0" y="0" class="st5" width="7.6" height="7.6"/>
+	</g>
+	<g transform="translate(183.90243902439025, 278.1818181818182)">
+		<rect x="0" y="0" class="st5" width="11.9" height="11.9"/>
+	</g>
+	<g transform="translate(169.7560975609756, 270.00000000000006)">
+		<rect x="0" class="st5" width="8.6" height="8.6"/>
+	</g>
+	<g transform="translate(169.7560975609756, 302.72727272727275)">
+		<rect x="0" y="0" class="st5" width="6.1" height="6.1"/>
+	</g>
+	<g transform="translate(367.8048780487805, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(381.95121951219517, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="4.7" height="4.7"/>
+	</g>
+	<g transform="translate(297.07317073170725, 343.6363636363637)">
+		<rect x="0" y="0" class="st4" width="5.8" height="5.8"/>
+	</g>
+	<g transform="translate(367.8048780487805, 360.00000000000006)">
+		<rect x="0" class="st4" width="4.5" height="4.5"/>
+	</g>
+	<g transform="translate(127.31707317073166, 98.18181818181816)">
+		<rect x="0" y="0" class="st5" width="13.3" height="13.3"/>
+	</g>
+	<g transform="translate(70.73170731707316, 81.81818181818187)">
+		<rect x="0" y="0" class="st5" width="11.5" height="11.5"/>
+	</g>
+	<g transform="translate(268.780487804878, 433.6363636363636)">
+		<rect x="0" y="0" class="st4" width="4.8" height="4.8"/>
+	</g>
+	<g transform="translate(580, 384.54545454545456)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(339.5121951219512, 450)">
+		<rect x="0" class="st4" width="4.6" height="4.6"/>
+	</g>
+	<g transform="translate(0, 24.545454545454582)">
+		<rect x="0" y="0" class="st10" width="11.4" height="11.4"/>
+	</g>
+	<g transform="translate(212.19512195121945, 237.2727272727273)">
+		<rect x="0" y="0" class="st5" width="20.9" height="20.9"/>
+	</g>
+	<g transform="translate(381.95121951219517, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.9" height="4.9"/>
+	</g>
+	<g transform="translate(183.90243902439025, 343.6363636363637)">
+		<rect x="0" y="0" class="st6" width="7.4" height="7.4"/>
+	</g>
+	<g transform="translate(396.0975609756098, 425.45454545454544)">
+		<rect x="0" y="0" class="st4" width="4.9" height="4.9"/>
+	</g>
+	<g transform="translate(198.0487804878049, 360.00000000000006)">
+		<rect x="0" class="st6" width="5.3" height="5.3"/>
+	</g>
+	<g transform="translate(240.48780487804873, 319.0909090909092)">
+		<rect x="0" y="0" class="st4" width="5.9" height="5.9"/>
+	</g>
+	<g transform="translate(282.9268292682927, 376.3636363636364)">
+		<rect x="0" y="0" class="st4" width="5.5" height="5.5"/>
+	</g>
+	<g transform="translate(99.02439024390245, 204.54545454545453)">
+		<rect x="0" y="0" class="st5" width="12.6" height="12.6"/>
+	</g>
+	<g transform="translate(99.02439024390245, 180.00000000000009)">
+		<rect x="0" class="st5" width="8.8" height="8.8"/>
+	</g>
+	<g transform="translate(169.7560975609756, 220.9090909090909)">
+		<rect x="0" y="0" class="st10" width="40" height="40"/>
+	</g>
+	<g transform="translate(212.19512195121945, 294.5454545454545)">
+		<rect x="0" y="0" class="st5" width="8.2" height="8.2"/>
+	</g>
+	<g transform="translate(127.31707317073166, 204.54545454545453)">
+		<rect x="0" y="0" class="st5" width="17.1" height="17.1"/>
+	</g>
+	<g transform="translate(466.82926829268285, 302.72727272727275)">
+		<rect x="0" y="0" class="st7" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(282.9268292682927, 188.18181818181824)">
+		<rect x="0" y="0" class="st7" width="9.2" height="9.2"/>
+	</g>
+	<g transform="translate(141.46341463414632, 286.3636363636364)">
+		<rect x="0" y="0" class="st5" width="7.2" height="7.2"/>
+	</g>
+	<g transform="translate(325.36585365853654, 302.72727272727275)">
+		<rect x="0" y="0" class="st7" width="5.6" height="5.6"/>
+	</g>
+	<g transform="translate(381.95121951219517, 360.00000000000006)">
+		<rect x="0" class="st4" width="4.7" height="4.7"/>
+	</g>
+	<g transform="translate(212.19512195121945, 212.72727272727272)">
+		<rect x="0" y="0" class="st5" width="20.9" height="20.9"/>
+	</g>
+	<g transform="translate(381.95121951219517, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="4.7" height="4.7"/>
+	</g>
+	<g transform="translate(240.48780487804873, 286.3636363636364)">
+		<rect x="0" y="0" class="st7" width="11.3" height="11.3"/>
+	</g>
+	<g transform="translate(297.07317073170725, 278.1818181818182)">
+		<rect x="0" y="0" class="st7" width="10.9" height="10.9"/>
+	</g>
+	<g transform="translate(424.39024390243907, 392.72727272727275)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(183.90243902439025, 0)">
+		<rect x="0" class="st10" width="13.2" height="13.2"/>
+	</g>
+	<g transform="translate(155.60975609756096, 237.2727272727273)">
+		<rect x="0" y="0" class="st5" width="10.3" height="10.3"/>
+	</g>
+	<g transform="translate(84.8780487804878, 163.63636363636368)">
+		<rect x="0" y="0" class="st5" width="11.2" height="11.2"/>
+	</g>
+	<g transform="translate(438.5365853658535, 319.0909090909092)">
+		<rect x="0" y="0" class="st7" width="4.6" height="4.6"/>
+	</g>
+	<g transform="translate(580, 360.00000000000006)">
+		<rect x="0" class="st9" width="4" height="4"/>
+	</g>
+	<g transform="translate(226.3414634146341, 360.00000000000006)">
+		<rect x="0" class="st6" width="12.3" height="12.3"/>
+	</g>
+	<g transform="translate(56.58536585365851, 212.72727272727272)">
+		<rect x="0" y="0" class="st5" width="9.6" height="9.6"/>
+	</g>
+	<g transform="translate(311.2195121951219, 327.2727272727273)">
+		<rect x="0" y="0" class="st4" width="5.2" height="5.2"/>
+	</g>
+	<g transform="translate(509.26829268292676, 441.81818181818187)">
+		<rect x="0" y="0" class="st9" width="4.5" height="4.5"/>
+	</g>
+	<g transform="translate(212.19512195121945, 384.54545454545456)">
+		<rect x="0" y="0" class="st6" width="9" height="9"/>
+	</g>
+	<g transform="translate(367.8048780487805, 400.90909090909093)">
+		<rect x="0" y="0" class="st4" width="4.9" height="4.9"/>
+	</g>
+	<g transform="translate(56.58536585365851, 65.45454545454551)">
+		<rect x="0" y="0" class="st5" width="7.7" height="7.7"/>
+	</g>
+	<g transform="translate(0, 90.0000000000001)">
+		<rect x="0" class="st5" width="8.8" height="8.8"/>
+	</g>
+	<g transform="translate(297.07317073170725, 466.3636363636364)">
+		<rect x="0" y="0" class="st4" width="5.6" height="5.6"/>
+	</g>
+	<g transform="translate(212.19512195121945, 384.54545454545456)">
+		<rect x="0" y="0" class="st6" width="5.1" height="5.1"/>
+	</g>
+	<g transform="translate(367.8048780487805, 409.09090909090907)">
+		<rect x="0" y="0" class="st4" width="4.2" height="4.2"/>
+	</g>
+	<g transform="translate(254.63414634146338, 253.63636363636365)">
+		<rect x="0" y="0" class="st7" width="8.2" height="8.2"/>
+	</g>
+	<g transform="translate(339.5121951219512, 351.81818181818187)">
+		<rect x="0" y="0" class="st4" width="4.5" height="4.5"/>
+	</g>
+	<g transform="translate(367.8048780487805, 368.1818181818182)">
+		<rect x="0" y="0" class="st4" width="4.3" height="4.3"/>
+	</g>
+	<g transform="translate(452.6829268292682, 319.0909090909092)">
+		<rect x="0" y="0" class="st7" width="5.7" height="5.7"/>
+	</g>
+	<g transform="translate(169.7560975609756, 376.3636363636364)">
+		<rect x="0" y="0" class="st6" width="17.6" height="17.6"/>
+	</g>
+	<g transform="translate(183.90243902439025, 294.5454545454545)">
+		<rect x="0" y="0" class="st5" width="6.8" height="6.8"/>
+	</g>
+	<g transform="translate(127.31707317073166, 261.81818181818187)">
+		<rect x="0" y="0" class="st5" width="9.2" height="9.2"/>
+	</g>
+	<g transform="translate(212.19512195121945, 458.1818181818182)">
+		<rect x="0" y="0" class="st6" width="17.6" height="17.6"/>
+	</g>
+	<g transform="translate(452.6829268292682, 417.2727272727273)">
+		<rect x="0" y="0" class="st4" width="4.1" height="4.1"/>
+	</g>
+	<g transform="translate(169.7560975609756, 302.72727272727275)">
+		<rect x="0" y="0" class="st5" width="8.3" height="8.3"/>
+	</g>
+	<g transform="translate(155.60975609756096, 180.00000000000009)">
+		<rect x="0" class="st5" width="25.4" height="25.4"/>
+	</g>
+	<g transform="translate(56.58536585365851, 98.18181818181816)">
+		<rect x="0" y="0" class="st5" width="9.8" height="9.8"/>
+	</g>
+	<g transform="translate(99.02439024390245, 122.72727272727273)">
+		<rect x="0" y="0" class="st10" width="20.2" height="20.2"/>
+	</g>
+	<g transform="translate(212.19512195121945, 229.09090909090912)">
+		<rect x="0" y="0" class="st5" width="6" height="6"/>
+	</g>
+	<g transform="translate(198.0487804878049, 335.45454545454544)">
+		<rect x="0" y="0" class="st6" width="7.8" height="7.8"/>
+	</g>
+	<g transform="translate(410.24390243902445, 360.00000000000006)">
+		<rect x="0" class="st4" width="4.7" height="4.7"/>
+	</g>
+	<g transform="translate(183.90243902439025, 499.0909090909091)">
+		<rect x="0" y="0" class="st6" width="8.3" height="8.3"/>
+	</g>
+	<g transform="translate(311.2195121951219, 302.72727272727275)">
+		<rect x="0" y="0" class="st7" width="7.8" height="7.8"/>
+	</g>
+	<g transform="translate(424.39024390243907, 450)">
+		<rect x="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(367.8048780487805, 392.72727272727275)">
+		<rect x="0" y="0" class="st4" width="4.4" height="4.4"/>
+	</g>
+	<g transform="translate(410.24390243902445, 474.54545454545456)">
+		<rect x="0" y="0" class="st4" width="4.8" height="4.8"/>
+	</g>
+	<g transform="translate(268.780487804878, 237.2727272727273)" class="st11">
+		<text transform="matrix(1 0 0 1 -14.3457 -5)" class="st12 st2 st3">Bahrain</text>
+		<text transform="matrix(1 0 0 1 -14.3457 -5)" class="st13 st2 st3">Bahrain</text>
+	</g>
+	<g transform="translate(565.8536585365854, 499.0909090909091)" class="st11">
+		<text transform="matrix(1 0 0 1 -17.0695 -5)" class="st12 st2 st3">Chad</text>
+		<text transform="matrix(1 0 0 1 -17.0695 -5)" class="st13 st2 st3">Chad</text>
+	</g>
+	<g transform="translate(56.58536585365851, 196.36363636363637)" class="st11">
+		<text transform="matrix(1 0 0 1 -49.0431 -5)" class="st12 st2 st3">Czech Republic</text>
+		<text transform="matrix(1 0 0 1 -49.0431 -5)" class="st13 st2 st3">Czech Republic</text>
+	</g>
+	<g transform="translate(353.6585365853658, 335.45454545454544)" class="st11">
+		<text transform="matrix(1 0 0 1 -14.3708 -5)" class="st12 st2 st3">India</text>
+		<text transform="matrix(1 0 0 1 -14.3708 -5)" class="st13 st2 st3">India</text>
+	</g>
+	<g transform="translate(0, 24.545454545454582)" class="st11">
+		<text transform="matrix(1 0 0 1 -21.4095 -5)" class="st12 st2 st3">Norway</text>
+		<text transform="matrix(1 0 0 1 -21.4095 -5)" class="st13 st2 st3">Norway</text>
+	</g>
+	<g transform="translate(169.7560975609756, 220.9090909090909)" class="st11">
+		<text transform="matrix(1 0 0 1 -7.812984e-03 -5)" class="st12 st2 st3">Qatar</text>
+		<text transform="matrix(1 0 0 1 -7.812984e-03 -5)" class="st13 st2 st3">Qatar</text>
+	</g>
+	<g transform="translate(183.90243902439025, 0)" class="st11">
+		<text transform="matrix(1 0 0 1 -29.8825 -5)" class="st12 st2 st3">Singapore</text>
+		<text transform="matrix(1 0 0 1 -29.8825 -5)" class="st13 st2 st3">Singapore</text>
+	</g>
+	<g transform="translate(580, 360.00000000000006)" class="st11">
+		<text transform="matrix(1 0 0 1 -26.9023 -5)" class="st12 st2 st3">Somalia</text>
+		<text transform="matrix(1 0 0 1 -26.9023 -5)" class="st13 st2 st3">Somalia</text>
+	</g>
+	<g transform="translate(509.26829268292676, 441.81818181818187)" class="st11">
+		<text transform="matrix(1 0 0 1 -20.8886 -5)" class="st12 st2 st3">Sudan</text>
+		<text transform="matrix(1 0 0 1 -20.8886 -5)" class="st13 st2 st3">Sudan</text>
+	</g>
+	<g transform="translate(99.02439024390245, 122.72727272727273)" class="st11">
+		<text transform="matrix(1 0 0 1 -5.4383 -5)" class="st12 st2 st3">U.S.</text>
+		<text transform="matrix(1 0 0 1 -5.4383 -5)" class="st13 st2 st3">U.S.</text>
+	</g>
+</g>
+</svg>
