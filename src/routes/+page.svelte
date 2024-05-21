@@ -1,7 +1,7 @@
 <script>
 	export let data
 
-	import * as config from '$lib/config'
+	import * as config from '$lib/config.js'
 	import { formatDate } from '$lib/utils'
 </script>
 
@@ -16,6 +16,7 @@
 				<a href={post.slug} class="title">
 					{post.title}
 				</a>
+				<img src={post.coverImage} alt={post.title} />
 				<p class="date">{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
 			</li>

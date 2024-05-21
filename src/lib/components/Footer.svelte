@@ -38,4 +38,11 @@
 		flex-direction: row;
 		gap: var(--size-2);
 	}
+
+	/* Removes the external link icons for links in the footer */
+	a[href^='http'] {
+		background: none;
+		margin: 0;
+		padding: 0;
+	}
 </style>

@@ -111,6 +111,15 @@ a:visited {
 	color: inherit;
 }
 
+a[href^='http'] {
+	background: url('/images/icons/external.svg') no-repeat 100% 0;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	background-size: 1rem;
+	padding-inline-end: 1.5rem;
+	margin-inline-end: 0.2rem;
+}
+
 h1 {
 	font-size: var(--font-size-6);
 }
@@ -181,4 +190,57 @@ li {
 	background-color: var(--surface-4);
 	border-radius: var(--radius-3);
 	tab-size: 2;
+}
+
+/* TEXT HIGHLIGHTING */
+::selection {
+	color: var(--brand);
+}
+
+::-moz-selection {
+	color: var(--brand);
+}
+
+/* SCROLLBAR */
+
+html,
+body {
+	scrollbar-color: var(--brand);
+	scrollbar-width: thin;
+
+	&.smooth-scroll {
+		scroll-behavior: smooth;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+	height: calc(var(1rem) * 0.25);
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+	/* the "track" of the bar - great for customizing "background" colors */
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	/* the actual draggable element */
+	color: var(--brand);
+}
+
+scrollbar-color {
+	/* color of the draggable element */
+	color: var(--brand);
+}
+
+/* LAYOUT */
+
+.post-chart--full-width {
+	position: relative;
+	height: 600px;
+
+	width: 100vw;
+	max-width: 100vw;
+	left: calc(-50vw + 50%);
 }
