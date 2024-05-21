@@ -40,14 +40,18 @@
 
 	.title {
 		font-family: var(--font-serif), serif;
-		font-size: var(--font-size-fluid-3);
+		font-size: var(--font-size-fluid-2);
+		color: var(--brand);
 	}
 
 	.date {
 		font-family: var(--font-sans), sans-serif;
+		font-size: var(--font-size-1);
+		font-style: italic;
 	}
 
 	.description {
 		margin-block-start: var(--size-3);
+		font-size: var(--font-size-2);
 	}
 </style>
