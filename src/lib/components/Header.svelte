@@ -1,5 +1,7 @@
 <script type="ts">
 	import * as config from '$lib/config'
+
+	import Toggle from './Toggle.svelte'
 </script>
 
 <nav>
@@ -16,7 +18,7 @@
 	</ul>
 
 	<!-- Theme toggle -->
-	<button>Toggle</button>
+	<Toggle />
 </nav>
 
 <style>
