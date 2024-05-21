@@ -6,16 +6,22 @@
 	// * IMPORT COMPONENTS
 	import Header from '$lib/components/Header.svelte'
 	import Footer from '$lib/components/Footer.svelte'
+	import PageTransition from './transition.svelte'
 
 	// * IMPORT GLOBAL STYLES
 	import '../app.css'
+
+	export let data
+	console.log(data)
 </script>
 
 <div class="layout">
 	<Header />
 	<main>
-		<!-- Slot for other content -->
-		<slot />
+		<PageTransition url={data.url}>
+			<!-- Slot for other content -->
+			<slot />
+		</PageTransition>
 	</main>
 	<Footer />
 </div>
