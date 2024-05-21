@@ -10,11 +10,12 @@
 
 	<!-- Site navigation -->
 	<ul class="nav-items">
-		{#each config.navItems as page}
-			<li>
-				<a href={page.url}>{page.title}</a>
-			</li>
-		{/each}
+		<li>
+			<a href="/about">About</a>
+		</li>
+		<li>
+			<a href="/rss.xml" target="_blank">RSS</a>
+		</li>
 	</ul>
 
 	<!-- Theme toggle -->
