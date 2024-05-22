@@ -244,3 +244,33 @@ scrollbar-color {
 	max-width: 100vw;
 	left: calc(-50vw + 50%);
 }
+
+/* CODE */
+
+pre,
+code {
+	font-family: var(--font-mono);
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+}
+
+pre {
+	overflow-y: auto;
+	padding: var(--size-2);
+	font-size: var(--font-size-3);
+}
+
+code {
+	font-size: var(--font-size-3);
+	padding-inline: var(--size-2);
+	border-radius: var(--raidus-2);
+	white-space: pre;
+	display: block;
+	text-wrap: pretty;
+}
+
+pre code {
+	padding: 0;
+	background: transparent;
+	font-size: 0.8rem;
+}
