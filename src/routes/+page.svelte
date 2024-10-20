@@ -30,9 +30,10 @@
 		gap: var(--size-7);
 	}
 
-	.posts {
-		max-inline-size: var(--size-content-3);
+	.post {
 		margin-inline: auto;
+		max-inline-size: var(--size-content-3);
+		position: relative;
 	}
 
 	.post:not(:last-child) {

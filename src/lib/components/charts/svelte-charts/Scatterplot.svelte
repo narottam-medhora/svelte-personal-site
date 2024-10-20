@@ -2,6 +2,7 @@
 	// Import D3 libraries
 	import { scaleLinear } from 'd3-scale'
 	import { extent } from 'd3-array'
+
 	// Import components
 	import Tooltip from './Tooltip.svelte'
 
@@ -37,7 +38,7 @@
 
 	// Set the sizes of the square
 	$: maxSquareSize = isMobile ? 20 : 40
-	$: minSquareSize = isMobile ? 2 : 4
+	$: minSquareSize = isMobile ? 5 : 10
 
 	// Define the scales
 	$: xScale = scaleLinear()
@@ -53,13 +54,12 @@
 		.range([minSquareSize, maxSquareSize])
 
 	// Define the font size for the chart labels
-	$: chartFontSize = isMobile ? '0.8rem' : '1rem'
 
 	// Store the data for the hovered node, initially set to null
 	$: hoveredNode = null
 </script>
 
-<div class="post-chart--normal-width" bind:clientWidth={width}>
+<div bind:clientWidth={width}>
 	<svg {width} {height}>
 		<g transform="translate({margin.left}, {margin.top})">
 			<!-- Y Axis Label -->
@@ -72,19 +72,13 @@
 					stroke="white"
 					stroke-dasharray="5 5"
 				/>
-				<text
-					x={boundedWidth}
-					y={boundedHeight / 2}
-					fill="white"
-					font-size={chartFontSize}
-					text-anchor="end"
-					dy={-6}>High Readiness &uarr;</text
+				<text x={boundedWidth} y={boundedHeight / 2} fill="white" text-anchor="end" dy={-6}
+					>High Readiness &uarr;</text
 				>
 				<text
 					x={boundedWidth}
 					y={boundedHeight / 2}
 					fill="white"
-					font-size={chartFontSize}
 					text-anchor="end"
 					dominant-baseline="hanging"
 					dy={6}
@@ -106,22 +100,13 @@
 					x={boundedWidth / 2}
 					y={boundedHeight}
 					fill="white"
-					font-size={chartFontSize}
 					dx={6}
 					dy={-6}
 					text-anchor="start"
 				>
 					High Vulnerability &rarr;
 				</text>
-				<text
-					x={boundedWidth / 2}
-					y={boundedHeight}
-					fill="white"
-					font-size={chartFontSize}
-					dx={-6}
-					dy={-6}
-					text-anchor="end"
-				>
+				<text x={boundedWidth / 2} y={boundedHeight} fill="white" dx={-6} dy={-6} text-anchor="end">
 					&larr; Low Vulnerability
 				</text>
 			</g>
@@ -164,7 +149,6 @@
 						)})"
 					>
 						<text
-							font-size={chartFontSize}
 							x={squareScale(country.co2_per_capita) / 2}
 							fill="white"
 							text-anchor="middle"
@@ -191,6 +175,10 @@
 <style>
 	/* Create an opacity transition for the rect elements */
 	rect {
-		transition: 230ms opacity ease;
+		transition: 250ms opacity ease;
+	}
+
+	rect:focus {
+		outline: none;
 	}
 </style>

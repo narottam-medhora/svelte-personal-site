@@ -6,8 +6,8 @@
 	export let hoveredNode
 	export let boundedWidth
 
-	const X_NUDGE = 70
-	const Y_NUDGE = 40
+	const X_NUDGE = 30
+	const Y_NUDGE = 10
 
 	let tooltipWidth = 0
 
@@ -36,12 +36,12 @@
 <style>
 	.chart-tooltip {
 		position: absolute;
-		padding: 0.5em;
+		padding: var(--size-2);
 
-		border: 2px solid var(--primary-1-dark);
-		border-radius: 0.25em;
+		border: 2px solid var(--border-light);
+		border-radius: var(--border-radius);
 
-		background-color: var(--brand-dark);
+		background-color: var(--surface-1-dark);
 		pointer-events: none;
 
 		transition:
@@ -49,16 +49,25 @@
 			left 300ms ease;
 	}
 
+	.chart-tooltip > * {
+		margin-block: 0;
+	}
+
 	.chart-tooltip--header {
-		margin: 0;
+		font-family: var(--font-serif), serif;
+		margin-block-end: var(--size-2);
 	}
 
 	.chart-tooltip--information {
-		padding-inline-start: 0.5em;
+		padding-inline-start: var(--size-2);
+	}
+
+	hr {
+		margin-block: var(--size-1);
 	}
 
 	.chart-tooltip--information > p {
 		margin-block: 0;
-		font-size: 0.8rem;
+		font-size: var(--font-size-1);
 	}
 </style>
