@@ -27,37 +27,38 @@
 	];
 
 	// Chart settings
-	let width = 968;
+	let width = $state(968);
 	let height = 600;
 	let margin = { top: 30, right: 30, bottom: 30, left: 30 };
 
-	$: boundedWidth = width - margin.left - margin.right;
-	$: boundedHeight = height - margin.top - margin.bottom;
+	let boundedWidth = $derived(width - margin.left - margin.right);
+	let boundedHeight = $derived(height - margin.top - margin.bottom);
 
-	$: isMobile = boundedWidth < 480;
+	let isMobile = $derived(boundedWidth < 480);
 
 	// Set the sizes of the square
-	$: maxSquareSize = isMobile ? 20 : 40;
-	$: minSquareSize = isMobile ? 2 : 4;
+	let maxSquareSize = $derived(isMobile ? 20 : 40);
+	let minSquareSize = $derived(isMobile ? 2 : 4);
 
 	// Define the scales
-	$: xScale = scaleLinear()
+	let xScale = $derived(scaleLinear()
 		.domain(extent(filteredData, (d) => +d.vulnerability_index))
-		.range([0, boundedWidth]);
+		.range([0, boundedWidth]));
 
-	$: yScale = scaleLinear()
+	let yScale = $derived(scaleLinear()
 		.domain(extent(filteredData, (d) => +d.readiness_index))
-		.range([boundedHeight, 0]);
+		.range([boundedHeight, 0]));
 
-	$: squareScale = scaleLinear()
+	let squareScale = $derived(scaleLinear()
 		.domain(extent(filteredData, (d) => +d.co2_per_capita))
-		.range([minSquareSize, maxSquareSize]);
+		.range([minSquareSize, maxSquareSize]));
 
 	// Define the font size for the chart labels
-	$: chartFontSize = isMobile ? '0.8rem' : '1rem';
+	let chartFontSize = $derived(isMobile ? '0.8rem' : '1rem');
 
 	// Store the data for the hovered node, initially set to null
-	$: hoveredNode = null;
+	let hoveredNode = $state(null);
+	
 </script>
 
 <div class="post-chart--normal-width" bind:clientWidth={width}>
@@ -149,9 +150,9 @@
 								? 0.7
 								: 0.2
 							: 0.8}
-						on:mouseover={() => (hoveredNode = country)}
-						on:focus={() => (hoveredNode = country)}
-						on:mouseleave={() => (hoveredNode = null)}
+						onmouseover={() => (hoveredNode = country)}
+						onfocus={() => (hoveredNode = country)}
+						onmouseleave={() => (hoveredNode = null)}
 					/>
 					<!-- Create labels for the countries in the highlighted countries array -->
 				</g>

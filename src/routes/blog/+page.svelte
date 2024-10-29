@@ -4,8 +4,14 @@
 	import { siteDescription } from '$lib/config';
 	import Placeholder from '$lib/components/Placeholder.svelte';
 
-	// TODO: Uncomment this when we go live
-	export let data;
+	
+	/**
+	 * @typedef {Object} Props
+	 * @property {any} data - TODO: Uncomment this when we go live
+	 */
+
+	/** @type {Props} */
+	let { data } = $props();
 </script>
 
 <svelte:head>

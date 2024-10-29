@@ -1,17 +1,19 @@
 <script>
 	import { fly } from 'svelte/transition';
 
-	export let xPos;
-	export let yPos;
-	export let hoveredNode;
-	export let boundedWidth;
+	let {
+		xPos,
+		yPos,
+		hoveredNode,
+		boundedWidth
+	} = $props();
 
 	const X_NUDGE = 70;
 	const Y_NUDGE = 40;
 
-	let tooltipWidth;
+	let tooltipWidth = $state();
 
-	$: tooltipXPos = xPos + X_NUDGE > boundedWidth ? xPos - tooltipWidth / 1.25 : xPos + X_NUDGE;
+	let tooltipXPos = $derived(xPos + X_NUDGE > boundedWidth ? xPos - tooltipWidth / 1.25 : xPos + X_NUDGE);
 </script>
 
 <div
