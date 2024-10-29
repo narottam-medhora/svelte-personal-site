@@ -18,7 +18,7 @@
 	class="chart-tooltip"
 	bind:clientWidth={tooltipWidth}
 	style="top: {yPos + Y_NUDGE}px; left: {tooltipXPos}px"
-	transition:fly={{ y: 10 }}
+	transition:fly|global={{ y: 10 }}
 >
 	<h6 class="chart-tooltip--header">{hoveredNode.name}</h6>
 	<hr />
