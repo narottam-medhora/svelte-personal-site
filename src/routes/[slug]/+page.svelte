@@ -1,7 +1,7 @@
 <script>
-	export let data
 
 	import { formatDate } from '$lib/utils'
+	let { data } = $props();
 </script>
 
 <svelte:head>
@@ -23,7 +23,7 @@
 	</ul>
 
 	<div class="markdown">
-		<svelte:component this={data.content} />
+		<data.content />
 	</div>
 </article>
 

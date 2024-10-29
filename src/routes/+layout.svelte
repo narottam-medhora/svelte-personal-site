@@ -11,7 +11,7 @@
 	// * IMPORT GLOBAL STYLES
 	import '../app.css'
 
-	export let data
+	let { data, children } = $props();
 </script>
 
 <div class="layout">
@@ -19,7 +19,7 @@
 	<main>
 		<PageTransition url={data.url}>
 			<!-- Slot for other content -->
-			<slot />
+			{@render children?.()}
 		</PageTransition>
 	</main>
 	<Footer />

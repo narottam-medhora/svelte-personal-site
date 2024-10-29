@@ -15,7 +15,6 @@ published: true
 
 <script>
   import Scatterplot from '$lib/components/charts/svelte-charts/Scatterplot.svelte'
-//   import Callout from '$lib/components/Callout.svelte'
 </script>
 
 # Building data visualisations with Svelte

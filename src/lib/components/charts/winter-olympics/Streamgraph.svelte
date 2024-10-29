@@ -42,19 +42,19 @@
 	const X_NUDGE = 10
 
 	// Chart settings
-	let width = 968
+	let width = $state(968)
 	let height = 500
 	let margin = { top: 20, right: 20, bottom: 20, left: 20 }
 
-	$: boundedWidth = width - margin.right - margin.left
+	let boundedWidth = $derived(width - margin.right - margin.left)
 	let boundedHeight = height - margin.top - margin.bottom
 
 	// Define the scales
-	$: xScale = scaleLinear()
+	let xScale = $derived(scaleLinear()
 		.domain([min(data, (d) => d.Year), max(data, (d) => d.Year)])
-		.range([0, boundedWidth])
+		.range([0, boundedWidth]))
 
-	$: ticks = xScale.ticks(4)
+	let ticks = $derived(xScale.ticks(4))
 
 	const yScale = scaleLinear().domain([-150, 150]).range([0, boundedHeight])
 
@@ -64,18 +64,18 @@
 	const stackLayout = stack().offset(stackOffsetSilhouette).order(stackOrderInsideOut).keys(keys)
 
 	// The area generator function must be reactive as it's dependent on the xScale
-	$: stackArea = area()
+	let stackArea = $derived(area()
 		.x((d) => xScale(d.data.Year))
 		.y0((d) => yScale(d[0]))
 		.y1((d) => yScale(d[1]))
-		.curve(curveBumpX)
+		.curve(curveBumpX))
 
 	// Create the stacked data
 	const stackedData = stackLayout(data)
 
 	// Create a variable to store hovered data
-	let hovered,
-		position = []
+	let hovered = $state(),
+		position = $state([])
 
 	function handleMouseOver(e, country) {
 		hovered = country
@@ -89,7 +89,7 @@
 <div class="chart-legend--container">
 	{#each TOP_10_COUNTRIES as country}
 		<div class="chart-legend">
-			<span class="chart-legend--key" style={`background-color: ${COLORScale(country)}`} />
+			<span class="chart-legend--key" style={`background-color: ${COLORScale(country)}`}></span>
 			<p class="chart-legend--text">{country}</p>
 		</div>
 	{/each}
@@ -97,7 +97,7 @@
 <div
 	class="post-chart--full-width"
 	bind:clientWidth={width}
-	on:mouseleave={() => {
+	onmouseleave={() => {
 		hovered = null
 	}}
 	role="tooltip"
@@ -112,8 +112,8 @@
 						fill={COLORScale(country.key)}
 						stroke="#f9f9f9"
 						stroke-width="1"
-						on:mouseover={(event) => handleMouseOver(event, country)}
-						on:focus={(event) => handleMouseOver(event, country)}
+						onmouseover={(event) => handleMouseOver(event, country)}
+						onfocus={(event) => handleMouseOver(event, country)}
 						role="tooltip"
 						opacity={hovered ? (hovered === country ? 1 : 0.3) : 1}
 						stroke-opacity={hovered ? (hovered === country ? 1 : 0.1) : 1}

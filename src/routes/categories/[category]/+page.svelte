@@ -1,22 +1,23 @@
-<script>
-
-	import * as config from '$lib/config.js'
+<script lang="ts">
 	import { formatDate } from '$lib/utils'
-	let { data } = $props();
+
+	let { data } = $props()
+	console.log(data)
 </script>
 
 <svelte:head>
-	<title>{config.title}</title>
+	<title>Posts in {data.category}</title>
 </svelte:head>
 
 <section>
+	<h1>Posts in {data.category}</h1>
+
 	<ul class="posts">
 		{#each data.posts as post}
 			<li class="post">
-				<a href={post.slug} class="title">
+				<a href="/{post.slug}" class="title">
 					{post.title}
 				</a>
-				<img src={post.coverImage} alt={post.title} />
 				<p class="date">{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
 			</li>
@@ -31,30 +32,22 @@
 	}
 
 	.post {
-		margin-inline: auto;
 		max-inline-size: var(--size-content-3);
-		position: relative;
-	}
-
-	.post:not(:last-child) {
-		border-block-end: 1px solid var(--border);
-		padding-block-end: var(--size-7);
 	}
 
 	.title {
-		font-family: var(--font-serif), serif;
+		font-family: var(--font-serif);
 		font-size: var(--font-size-fluid-2);
 		color: var(--brand);
 	}
 
 	.date {
-		font-family: var(--font-sans), sans-serif;
+		font-family: var(--font-sans);
 		font-size: var(--font-size-1);
 		font-style: italic;
 	}
 
 	.description {
 		margin-block-start: var(--size-3);
-		font-size: var(--font-size-2);
 	}
 </style>
