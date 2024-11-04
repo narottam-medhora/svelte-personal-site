@@ -23,9 +23,7 @@ The first iteration of this site used some pretty simplistic JavaScript and HTML
 
 To get my hands on the keyboard, I wanted to experiment with a couple of visualisations. I decided to recreate the fascinating [scatterplot](https://blog.datawrapper.de/climate-risk-readiness-responsibility/) created by David Wendler at Datawrapper, showcasing the vulnerability of countries to climate change using data from the University of Notre Dame.
 
-<Scatterplot />
-
-## Building the chart with vanilla JavaScript and D3
+## Vanilla JavaScript and D3
 
 During my initial foray into the world of D3, I had a relatively basic grasp of JavaScript and the concept of selections, joins, and method chaining seemed alien to me.
 
@@ -53,7 +51,7 @@ svg
 
 For a few months, the experience was extremely frustrating. Understanding D3’s unique syntax, while navigating outdated examples on bl.ocks.org (🪦) and Stack Overflow, was one of the steepest learning curves I’ve ever encountered.
 
-## Building the chart declaratively
+## Writing declaratively
 
 Early last year, I stumbled across Amelia Wattenberger’s excellent [post](https://wattenberger.com/blog/react-and-d3) about writing D3 **declaratively**. Having our code describe _what_ we want our visualisation to look like, instead of _how_ the visualisation should be constructed, marked a meaningful shift in my mental model.
 
@@ -83,3 +81,5 @@ If we ignore some Svelte-specific syntax, such as the **each** block and declara
 Adding responsiveness and additional functionality such as tooltips isn’t much more complicated either, thanks to the power of Svelte’s reactive declarations and statements.
 
 Here’s the end product of that process:
+
+<Scatterplot />

@@ -31,14 +31,14 @@
 	}
 
 	p {
-		color: var(--text-2);
-		font-size: var(--font-size-2);
+		color: var(--text-1);
+		font-size: var(--font-size-1);
 	}
 
 	.footer-social {
 		display: flex;
 		flex-direction: row;
-		gap: var(--size-2);
+		gap: var(--size-3);
 	}
 
 	/* Removes the external link icons for links in the footer */

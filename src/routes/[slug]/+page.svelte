@@ -1,7 +1,6 @@
 <script>
-
 	import { formatDate } from '$lib/utils'
-	let { data } = $props();
+	let { data } = $props()
 </script>
 
 <svelte:head>
@@ -12,7 +11,7 @@
 
 <article>
 	<hgroup>
-		<h1>{data.metadata.title}</h1>
+		<h1 class="title">{data.metadata.title}</h1>
 		<p>Published on {formatDate(data.metadata.date)}</p>
 	</hgroup>
 
@@ -33,9 +32,10 @@
 		margin-inline: auto;
 	}
 
-	h1 {
+	:is(h1) {
 		font-family: var(--font-serif);
 		color: var(--brand);
+		max-inline-size: var(--size-header-3);
 	}
 
 	h1 + p {

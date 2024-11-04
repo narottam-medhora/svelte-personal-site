@@ -1,4 +1,7 @@
 <script>
+	import { get } from 'svelte/store'
+	import { theme } from '$lib/theme'
+
 	// Import D3 libraries
 	import { scaleLinear } from 'd3-scale'
 	import { extent } from 'd3-array'
@@ -8,6 +11,9 @@
 
 	// Import data
 	import data from '$lib/assets/data/emissions_data.json'
+
+	const userTheme = get(theme)
+	console.log(userTheme)
 
 	// Filter the data
 	let filteredData = data.filter((d) => d.vulnerability_index !== 'N/A')
@@ -41,26 +47,31 @@
 	let minSquareSize = $derived(isMobile ? 5 : 10)
 
 	// Define the scales
-	let xScale = $derived(scaleLinear()
-		.domain(extent(filteredData, (d) => +d.vulnerability_index))
-		.range([0, boundedWidth]))
+	let xScale = $derived(
+		scaleLinear()
+			.domain(extent(filteredData, (d) => +d.vulnerability_index))
+			.range([0, boundedWidth])
+	)
 
-	let yScale = $derived(scaleLinear()
-		.domain(extent(filteredData, (d) => +d.readiness_index))
-		.range([boundedHeight, 0]))
+	let yScale = $derived(
+		scaleLinear()
+			.domain(extent(filteredData, (d) => +d.readiness_index))
+			.range([boundedHeight, 0])
+	)
 
-	let squareScale = $derived(scaleLinear()
-		.domain(extent(filteredData, (d) => +d.co2_per_capita))
-		.range([minSquareSize, maxSquareSize]))
+	let squareScale = $derived(
+		scaleLinear()
+			.domain(extent(filteredData, (d) => +d.co2_per_capita))
+			.range([minSquareSize, maxSquareSize])
+	)
 
 	// Define the font size for the chart labels
 
 	// Store the data for the hovered node, initially set to null
-	let hoveredNode = $state(null);
-	
+	let hoveredNode = $state(null)
 </script>
 
-<div bind:clientWidth={width}>
+<div bind:clientWidth={width} class="chart-container">
 	<svg {width} {height}>
 		<g transform="translate({margin.left}, {margin.top})">
 			<!-- Y Axis Label -->
@@ -70,7 +81,6 @@
 					x2={boundedWidth}
 					y1={boundedHeight / 2}
 					y2={boundedHeight / 2}
-					stroke="white"
 					stroke-dasharray="5 5"
 				/>
 				<text x={boundedWidth} y={boundedHeight / 2} fill="white" text-anchor="end" dy={-6}
@@ -94,7 +104,6 @@
 					x2={boundedWidth / 2}
 					y1={0}
 					y2={boundedHeight}
-					stroke="white"
 					stroke-dasharray="5 5"
 				/>
 				<text
@@ -122,7 +131,13 @@
 						width={squareScale(country.co2_per_capita)}
 						height={squareScale(country.co2_per_capita)}
 						fill={country.color}
-						stroke={HIGHLIGHTED_COUNTRIES.includes(country.name) ? 'white' : ''}
+						stroke={userTheme === 'dark'
+							? HIGHLIGHTED_COUNTRIES.includes(country.name)
+								? 'white'
+								: ''
+							: HIGHLIGHTED_COUNTRIES.includes(country.name)
+								? 'black'
+								: ''}
 						stroke-width="1"
 						opacity={// Logic to handle the opacity of the squares
 						!hoveredNode
@@ -136,7 +151,6 @@
 								: 0.8}
 						onmouseover={() => (hoveredNode = country)}
 						onfocus={() => (hoveredNode = country)}
-						onmouseleave={() => (hoveredNode = null)}
 						role="tooltip"
 					/>
 					<!-- Create labels for the countries in the highlighted countries array -->
@@ -169,14 +183,39 @@
 			xPos={xScale(hoveredNode.vulnerability_index)}
 			yPos={yScale(hoveredNode.readiness_index)}
 			{boundedWidth}
+			{boundedHeight}
+			{userTheme}
 		/>
 	{/if}
 </div>
 
 <style>
+	.chart-container {
+		position: relative;
+	}
+
+	text {
+		fill: var(--text-1);
+	}
+
+	line {
+		stroke: var(--text-1);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		text {
+			fill: var(--text-1);
+		}
+
+		line {
+			stroke: var(--text-1);
+		}
+	}
+
 	/* Create an opacity transition for the rect elements */
 	rect {
 		transition: 250ms opacity ease;
+		cursor: pointer;
 	}
 
 	rect:focus {
