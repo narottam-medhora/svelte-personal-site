@@ -1,4 +1,4 @@
-<script type="ts">
+<script>
 	import * as config from '$lib/config'
 
 	import Toggle from './Toggle.svelte'
@@ -10,12 +10,16 @@
 
 	<!-- Site navigation -->
 	<ul class="nav-items">
-		<li>
-			<a href="/about">About</a>
-		</li>
-		<li>
-			<a href="/rss.xml" target="_blank">RSS</a>
-		</li>
+		{#each config.navItems as navItem}
+			<li>
+				<a
+					href={navItem.url}
+					aria-label={navItem.title}
+					alt={navItem.title}
+					target={navItem.title === 'RSS' ? '_blank' : '_self'}>{navItem.title}</a
+				>
+			</li>
+		{/each}
 	</ul>
 
 	<!-- Theme toggle -->
