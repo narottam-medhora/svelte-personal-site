@@ -28,6 +28,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		flex-direction: column;
+		gap: var(--size-3);
 	}
 
 	p {
@@ -46,5 +48,12 @@
 		background: none;
 		margin: 0;
 		padding: 0;
+	}
+
+	@media (min-width: 768px) {
+		footer {
+			flex-direction: row;
+			gap: 0;
+		}
 	}
 </style>

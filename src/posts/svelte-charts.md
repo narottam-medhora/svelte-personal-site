@@ -5,7 +5,8 @@ updated: '2023-08-29'
 categories:
   - 'd3'
   - 'svelte'
-coverImage: '/images/data-visualisations-svelte.svg'
+coverImageLight: '/images/charts/svelte_charts_light.png'
+coverImageDark: '/images/charts/svelte_charts_dark.png'
 coverWidth: 16
 coverHeight: 9
 description: Recreating DataWrapper's climate vulnerability index.

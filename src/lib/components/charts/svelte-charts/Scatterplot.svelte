@@ -13,7 +13,6 @@
 	import data from '$lib/assets/data/emissions_data.json'
 
 	const userTheme = get(theme)
-	console.log(userTheme)
 
 	// Filter the data
 	let filteredData = data.filter((d) => d.vulnerability_index !== 'N/A')
@@ -72,7 +71,13 @@
 </script>
 
 <div bind:clientWidth={width} class="chart-container">
-	<svg {width} {height}>
+	<svg
+		{width}
+		{height}
+		onmouseout={() => (hoveredNode = null)}
+		onblur={() => (hoveredNode = null)}
+		role="graphics-document"
+	>
 		<g transform="translate({margin.left}, {margin.top})">
 			<!-- Y Axis Label -->
 			<g>

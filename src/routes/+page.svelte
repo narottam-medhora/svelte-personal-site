@@ -1,8 +1,11 @@
 <script>
-
 	import * as config from '$lib/config.js'
 	import { formatDate } from '$lib/utils'
-	let { data } = $props();
+	import { get } from 'svelte/store'
+	import { theme } from '$lib/theme'
+
+	let { data } = $props()
+	const userTheme = get(theme)
 </script>
 
 <svelte:head>
@@ -16,7 +19,11 @@
 				<a href={post.slug} class="title">
 					{post.title}
 				</a>
-				<img src={post.coverImage} alt={post.title} />
+				{#if userTheme === 'light'}
+					<img src={post.coverImageLight} alt={post.title} />
+				{:else}
+					<img src={post.coverImageDark} alt={post.title} />
+				{/if}
 				<p class="date">{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
 			</li>
@@ -51,6 +58,7 @@
 		font-family: var(--font-sans), sans-serif;
 		font-size: var(--font-size-1);
 		font-style: italic;
+		margin-block-start: 10px;
 	}
 
 	.description {

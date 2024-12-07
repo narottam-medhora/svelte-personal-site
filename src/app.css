@@ -237,15 +237,27 @@ scrollbar-color {
 	color: var(--brand);
 }
 
-/* LAYOUT */
+/* GRAPHICS */
 
-.post-chart--full-width {
+.post-chart--lg {
 	position: relative;
-	height: 600px;
 
 	width: 100vw;
 	max-width: 100vw;
 	left: calc(-50vw + 50%);
+}
+
+.post-chart--md {
+	position: relative;
+
+	width: 50vw;
+	max-width: 50vw;
+	left: calc(-50vw + 50%);
+	margin-inline: auto;
+}
+
+.g-annotations {
+	margin-block-start: 0 !important;
 }
 
 /* CODE */

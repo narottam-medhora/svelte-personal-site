@@ -17,6 +17,6 @@
 	h1 {
 		font-family: var(--font-serif);
 		font-size: var(--font-size-5);
-		text-wrap: nowrap;
+		text-wrap: wrap;
 	}
 </style>

@@ -4,7 +4,8 @@ date: '2021-09-30'
 updated: '2021-09-30'
 categories:
   - 'd3'
-coverImage: '/images/winter-olympics.svg'
+coverImageLight: '/images/charts/winter_olympics_light.png'
+coverImageDark: '/images/charts/winter_olympics_dark.png'
 coverWidth: 16
 coverHeight: 9
 description: I really just wanted an excuse to build a streamgraph. Honest.
@@ -13,12 +14,14 @@ published: true
 ---
 
 <script>
-    import Streamgraph  from '$lib/components/charts/winter-olympics/Streamgraph.svelte'
+    // import Streamgraph  from '$lib/components/charts/winter-olympics/Streamgraph.svelte'
+    import StreamgraphAI from '$lib/components/ai2svelte/winter-olympics.svelte'
 </script>
 
 The inaugural Winter Olympics at Chamonix, France in 1924 saw 16 countries participate, of which 10 won medals while competing across 16 events. Nearly a century later, the 2022 Winter Olympics in Beijing will see 92 countries challenge for medals across 109 events.
 
-<Streamgraph />
+<!-- <Streamgraph /> -->
+<StreamgraphAI />
 
 ## The expansion of the Winter Games
 
